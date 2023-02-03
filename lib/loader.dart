@@ -14,5 +14,4 @@ class GoogleAnalytics implements AnalyticsSketch {
 	
 	@override
 	void sendTiming(String category, String variable, int valueMillis, {String label}) {}
-	
 }
